@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#bookDisplay {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.book-image {
+    max-width: 100%;  /* Maximum width relative to the parent container */
+    max-height: 500px; /* Maximum height set to 500px */
+    width: auto;       /* Width set to auto to maintain aspect ratio */
+    height: auto;      /* Height set to auto to maintain aspect ratio */
+    display: block;    /* To prevent inline gaps */
+    margin: 10px auto; /* To center the image with a margin on top and bottom */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e8e8e8;
+}
+
+input:disabled, select:disabled {
+    background-color: #e0e0e0;
+    color: #a0a0a0;
+}

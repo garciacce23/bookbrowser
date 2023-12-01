@@ -1,0 +1,60 @@
+{
+    "books": [
+    {
+        "title": "The Final Empire",
+        "author": "Brandon Sanderson",
+        "releaseYear": 2006,
+        "readStatus": true,
+        "collection": "Mistborn Era 1",
+        "image": "image/finalEmpire.png"
+    },
+    {
+        "title": "The Well of Ascension",
+        "author": "Brandon Sanderson",
+        "releaseYear": 2007,
+        "readStatus": true,
+        "collection": "Mistborn Era 1",
+        "image": "image/wellAscension.png"
+    },
+    {
+        "title": "The Hero of Ages",
+        "author": "Brandon Sanderson",
+        "releaseYear": 2008,
+        "readStatus": true,
+        "collection": "Mistborn Era 1",
+        "image": "image/heroAges.png"
+    },
+    {
+        "title": "The Alloy of Law",
+        "author": "Brandon Sanderson",
+        "releaseYear": 2011,
+        "readStatus": false,
+        "collection": "Mistborn Era 2",
+        "image": "image/alloyLaw.png"
+    },
+    {
+        "title": "Shadows of Self",
+        "author": "Brandon Sanderson",
+        "releaseYear": 2015,
+        "readStatus": false,
+        "collection": "Mistborn Era 2",
+        "image": "image/shadowSelf.png"
+    },
+    {
+        "title": "The Bands of Mourning",
+        "author": "Brandon Sanderson",
+        "releaseYear": 2016,
+        "readStatus": false,
+        "collection": "Mistborn Era 2",
+        "image": "image/bandsMourning.png"
+    },
+    {
+        "title": "The Lost Metal",
+        "author": "Brandon Sanderson",
+        "releaseYear": 2022,
+        "readStatus": false,
+        "collection": "Mistborn Era 2",
+        "image": "image/lostMetal.png"
+    }
+    ]
+}  

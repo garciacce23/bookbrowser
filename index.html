@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mistborn Series</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <button id="setupDbButton">Setup Database</button>
+
+    <button id="defaultOrderButton">Default Order</button>
+    <button id="sortButton">Sort by Release Year</button>
+
+    <button id="toggleEditButton">Toggle Edit</button>
+
+
+
+    <div id="bookForm">
+        <input type="text" id="title" placeholder="Title">
+        <input type="text" id="author" placeholder="Author">
+        <input type="number" id="releaseYear" placeholder="Release Year">
+        <select id="readStatus">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select>
+        <input type="text" id="collection" placeholder="Collection">
+        <input type="text" id="image" placeholder="Image URL">
+        <button id="saveButton">Save</button>
+        <button id="insertButton">Insert New</button>
+        <button id="deleteButton">Delete</button>
+    </div>
+
+    <form id="imageUploadForm" action="php/uploadFile.php" method="post" enctype="multipart/form-data">
+        <p>Select an image to upload:</p>
+        <ul>
+        <li><input type="file" name="fileup" id="fileup"></li>
+        <li><input type="submit" value="Upload Image" name="submit"></li>
+        </ul>
+    </form>
+
+
+    <div id="bookDisplay">
+        <!-- Books-->
+    </div>
+
+    <button id="firstButton">First</button>
+    <button id="prevButton">Previous</button>
+    <button id="nextButton">Next</button>
+    <button id="lastButton">Last</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
